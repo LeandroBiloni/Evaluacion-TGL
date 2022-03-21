@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Project.Exersice3.Repositories;
 
-public class PlayerLocalRepository : LocalRepository<string>
+namespace Project.Exersice3
 {
+    public class PlayerLocalRepository : LocalRepository<string>
+    {
+    }
 }
+

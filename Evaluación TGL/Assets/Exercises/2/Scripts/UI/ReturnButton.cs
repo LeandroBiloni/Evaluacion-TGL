@@ -1,17 +1,10 @@
-using UnityEngine;
-
-namespace DefaultNamespace
+namespace Buttons
 {
-    public class ReturnButton : MonoBehaviour
+    public class ReturnButton : BaseButton
     {
-        public void OnClickReturn()
+        public override void OnClick()
         {
             //DO Return
-        }
-
-        public bool IsActive()
-        {
-            return gameObject.activeInHierarchy;
         }
     }
 }

@@ -1,17 +1,10 @@
-using UnityEngine;
-
-namespace DefaultNamespace
+namespace Buttons
 {
-    public class ExitButton : MonoBehaviour
+    public class ExitButton : BaseButton
     {
-        public void OnClickExit()
+        public override void OnClick()
         {
             //DO Exit
-        }
-
-        public bool IsActive()
-        {
-            return gameObject.activeInHierarchy;
         }
     }
 }

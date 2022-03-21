@@ -1,15 +1,10 @@
-using UnityEngine;
-
-
-public class PlayButton : MonoBehaviour
+namespace Buttons
 {
-    public void OnClickPlay()
+    public class PlayButton : BaseButton
     {
-        //DO Play
-    }
-
-    public bool IsActive()
-    {
-        return gameObject.activeInHierarchy;
+        public override void OnClick()
+        {
+            //DO Play
+        }
     }
 }

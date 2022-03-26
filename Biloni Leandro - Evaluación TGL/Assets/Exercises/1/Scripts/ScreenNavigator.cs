@@ -9,18 +9,6 @@ public class ScreenNavigator : MonoBehaviour
 
     private Screen _previousScreen;
 
-    private static ScreenNavigator _instance;
-    public static ScreenNavigator Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-
-            }
-            return _instance;
-        }
-    }
     public void OpenScreen(Screen screen)
     {
         if (!screen) return;
